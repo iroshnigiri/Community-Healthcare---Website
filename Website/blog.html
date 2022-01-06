@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog page</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Comforter+Brush&family=Satisfy&family=Titan+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+     <section class="sub-header">
+        <nav>
+            <a href="index.html"> <img src="../images/health.jpg" alt="" style="border-radius: 5px; border: 2px solid black;"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="aboutUs.html">ABOUT</a></li>
+                <li><a href="courses.html">FACILITIES</a></li>
+                <li><a href="blog.html">STORE</a></li>
+                <li><a href="contact-us.html">CONTACT</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>WELCOME TO MEDICAL STORE</h1>
+     </section>
+
+<!-- Blog content -->
+<section class="Blog-content">
+    <div class="row">
+        <div class="blog-left">
+            <img src="../images/certificate.jpg" alt="">
+            <h3>Allopathic:-</h3>
+            <p>Allopathic medicine, or allopathy, is an archaic term used to define science-based, modern medicine. There are regional variations in usage of the term. In the United States, the term is used to contrast with osteopathic medicine, especially in the field of medical education.</p>
+            <br>
+            <h3>Homopathic:-</h3>
+            <p>Homeopathy, or homeopathic medicine, is a medical philosophy and practice based on the idea that the body has the ability to heal itself. Homeopathy was founded in the late 1700s in Germany and has been widely practiced throughout Europe. Homeopathic medicine views symptoms of illness as normal responses of the body as it attempts to regain health.
+            </p>
+            <br>
+            <h3>Ayurvedic:-</h3>
+            <p>Ayurveda or Ayurvedic medicine is a system of traditional medicine native to India, whichuses a range of treatments, including panchakarma ('five actions'), yoga, massage, acupuncture and herbal medicine, to encourage health and wellbeing</p>
+            <br>
+            <h3>Osteopathic:-</h3>
+            <p>Osteopathic medicine is a branch of the medical profession in the United States that promotes the practice of allopathic medicine with a set of philosophy and principles set by its earlier form, osteopathy. </p>
+            <br>
+            <h3>Herbal:-</h3>
+            <p>Herbal medicine is the study of pharmacognosy and the use of medicinal plants, which are a basis of traditional medicine. </p>
+            <br>
+            <h3>Naturopathic</h3>
+            <p>Naturopathy, or naturopathic medicine, is a form of alternative medicine. It employs an array of pseudoscientific practices branded as "natural", "non-invasive", or promoting "self-healing". The practices of naturopaths, the practitioners of naturopathic medicine, vary widely and are difficult to generalize.</p>
+            <br>
+            <div class="comment-box">
+                <h3>Leave a Comment</h3>
+                <form class="comment-form">
+                    <input type="text" placeholder="Enter Name" name="name" id="">
+                    <input type="email" name="email" placeholder="Enter Email" id="">
+                    <textarea name="address" rows="5" placeholder="Enter Your's Comment"></textarea>
+                    <button type="submit" class="btn red-btn">Post Comment</button>
+                </form>
+            </div>
+
+        </div>
+        <div class="blog-right">
+            <h3>VARIETY OF MEDICINES</h3>
+            <div>
+                <span>Allopathic</span>
+                <span>1000</span>
+            </div>
+            <div>
+                <span>Homopathic</span>
+                <span>2000</span>
+            </div>
+            <div>
+                <span>Ayurvedic</span>
+                <span>1500</span>
+            </div>
+            <div>
+                <span>Osteopathic</span>
+                <span>2500</span>
+            </div>
+            <div>
+                <span>Herbal </span>
+                <span>2200</span>
+            </div>
+            <div>
+                <span>Naturopathic</span>
+                <span>3000</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- footer section -->
+<section class="footer">
+    <h4>About Us</h4>
+    <p>The human body has been designed to resist an infinite number of changes and attacks brought about by its environment.<br>The secret of good health lies in successful adjustment to changing stresses on the body.</p>
+    <div class="icons">
+            <i class =" fa fa-facebook"></i>
+            <i class =" fa fa-instagram"></i>
+            <i class =" fa fa-twitter"></i>
+            <i class =" fa fa-linkedin"></i>
+    </div>
+    <p class="names">Made by  <i class =" fa fa-heart-o"> </i> <br>
+        Roshni <br> 
+        Pulkit chopra <br>
+        Sachin Kumar <br>
+        Nitin Gupta
+    </p>
+
+</section>
+
+
+<!-- javascript for toggle in mobile phone  -->
+     <script>
+        var navclick=document.getElementById("navLinks");
+        function showMenu(){
+            navclick.style.right= "0";
+        }
+        function hideMenu(){
+            navclick.style.right= "-200px";
+        }
+     </script>
+</body>
+</html>

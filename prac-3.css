@@ -1,0 +1,60 @@
+
+body{
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+    background-image:  linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/background4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container{
+    border: 2px solid rgb(202, 248, 206);
+    border-radius: 20px;
+    color: white;
+   
+    width: 450px;
+    margin-left: 60%; 
+    padding: 25px;
+}
+h1{
+    text-align: center;
+    font: size 40px;;
+    
+}
+textarea{
+    width:100%;
+
+}       
+ 
+button{
+    color:white;
+    background-color: rgb(7, 41, 15);
+   border-radius: 20px;
+   font-size: 15px;
+    padding: 10px;
+    justify-content: center;
+    border: 1px solid black;
+
+}
+input,textarea{
+    border-radius: 9px;
+    border: 1px solid blue;
+    
+}
+input{
+    height: 20px;
+   
+}
+
+/* input , textarea :hover{
+    background-color: burlywood;
+} */
+button:hover{
+    background-color: fuchsia;
+    cursor: pointer;
+}
+label{
+    font-size: 25px;
+    font-weight: 400;
+
+}
